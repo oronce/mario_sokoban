@@ -20,15 +20,8 @@
 #include <SDL/SDL_video.h>   
 
 #endif
-
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> mario
 void test(){
-    printf("this is a test function");
+    
 }
 
 void restartGame(){

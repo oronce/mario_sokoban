@@ -372,5 +372,9 @@ int startGame(SDL_Surface*screen){
 }
 
 
+//life is amazing waoh
+
+
+
 //new change
 //conflicting baba

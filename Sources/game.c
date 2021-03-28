@@ -8,7 +8,7 @@
 *contain all functions to play the game, manage keyboard events etc 
 */
 
-
+  
 
 
 #ifndef DEF_GAMEH
@@ -20,13 +20,7 @@
 #include <SDL/SDL_video.h>   
 
 #endif
-void test(){
-    
-}
 
-void restartGame(){
-
-}
 
 void movePlayer(Position*playerPosition,int map[NBR_HORIZ_BLOCK][NBR_VERT_BLOCK],int*currNbrGoal,int direction){
     switch (direction){
@@ -378,3 +372,4 @@ int startGame(SDL_Surface*screen){
 }
 
 
+//new change

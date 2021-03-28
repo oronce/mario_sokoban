@@ -8,13 +8,8 @@
 *contain all functions to play the game, manage keyboard events etc 
 */
 
-<<<<<<< HEAD
 
-//change on master
-=======
-//conficting test
 
->>>>>>> mario
 
 #ifndef DEF_GAMEH
 #define DEF_GAMEH
@@ -25,6 +20,10 @@
 #include <SDL/SDL_video.h>   
 
 #endif
+
+
+
+
 
 void restartGame(){
 

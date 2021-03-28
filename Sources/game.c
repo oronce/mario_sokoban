@@ -21,9 +21,12 @@
 
 #endif
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> mario
 void test(){
     printf("this is a test function");
 }

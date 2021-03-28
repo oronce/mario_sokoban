@@ -8,8 +8,13 @@
 *contain all functions to play the game, manage keyboard events etc 
 */
 
+<<<<<<< HEAD
 
 //change on master
+=======
+//conficting test
+
+>>>>>>> mario
 
 #ifndef DEF_GAMEH
 #define DEF_GAMEH
@@ -175,6 +180,7 @@ int setPlayerPosition(int map[NBR_HORIZ_BLOCK][NBR_VERT_BLOCK],Position*playerPo
     printf("player position not found, check if it exist and   if it MARIO_DOWN constant\n");
     return 0;      
 }
+//salut tout le monde 
 
 /*
 *get total of GOAL BLOCK 

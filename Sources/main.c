@@ -6,21 +6,20 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h> 
 #include <SDL/SDL_video.h>   
+     
 #include "../Headers/game.h"
-#include "file.c"                   
-#include "game.c"
-#include "custom.c"
-#include "../Headers/custom.h" 
-
+#include "../Headers/file.h"                   
+#include "../Headers/custom.h"
+ 
 
 void pause();      
+            
+                  
   
-                
-  
-int main(int argc, char *argv[])
+int main(int argc, char *argv[])  
 {  
         
-     
+      
     if (SDL_Init(SDL_INIT_VIDEO) == -1) { 
      
 		fprintf(stderr, "Erreur d'initialisation de la SDL : %s\n", SDL_GetError());    
@@ -50,24 +49,26 @@ int main(int argc, char *argv[])
 	 
 	//home screen load and blitting 
 	homeScreen=IMG_Load("../images/menu.jpg"); 
-    SDL_BlitSurface(homeScreen,NULL,screen,&homeScreenPosition );                    
+    SDL_BlitSurface(homeScreen,NULL,screen,&homeScreenPosition );                         
     SDL_Flip(screen);      
      
 	//event manager        
     while(continu){   
+        SDL_BlitSurface(homeScreen,NULL,screen,&homeScreenPosition );                         
+        SDL_Flip(screen); 
         SDL_WaitEvent(&event);    
         switch(event.type){
             case SDL_QUIT:
-                SDL_Quit(); 
+                SDL_Quit();    
                 continu = 0;  
                 break;
             case SDL_KEYDOWN:
                 switch(event.key.keysym.sym){      
                     case SDLK_ESCAPE : 
                         SDL_Quit();       
-                        continu = 0;   
+                        continu = 0;     
                     break; 
-                    case SDLK_1 : 
+                    case SDLK_1 :   
                         startGame(screen); 
                     break;
                     case SDLK_2 :
@@ -85,11 +86,10 @@ int main(int argc, char *argv[])
 }
  
 
+  
 
-
-
-
-
+  
+  
 
 
 
@@ -104,12 +104,13 @@ void pause()
         switch(event.type)
         {
             case SDL_QUIT:
-                continuer = 0;
+                continuer = 0;   
         }
     }
 }
 
 
+         
 
 
 
@@ -118,8 +119,7 @@ void pause()
 
 
 
-
-
+  
 
 
 
@@ -143,20 +143,20 @@ void pause()
 		printf("numberofTry: %d\n", numberOfTry );*/
 
 
-          
-                        
-           
-           
+                                 
+                                                          
+                                                                                               
+                          
      
 /*int nbrUser = 2 ;
 	User usrArr[nbrUser]; 
-	   
+	       
 	createUser(usrArr,nbrUser);             
 	
-	printf("\n \n \n");          
-	
-	printUser(usrArr,nbrUser);*/
-
+	printf("\n \n \n");           
+	   
+	printUser(usrArr,nbrUser);*/   
+  
 
 
 

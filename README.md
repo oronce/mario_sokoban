@@ -1,6 +1,6 @@
 # A simple mario sokoban game written in c using sdl library
-### Linux user 
-#you can start the game by execute the  compiled file main, just tap "./main"
+## Linux user 
+# you can start the game by execute the  compiled file main in Sources folder, just tap "./main"
 #
 #i used sdl 1.2 version library , if you dont install it won't compile
 #

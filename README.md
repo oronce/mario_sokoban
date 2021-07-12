@@ -3,6 +3,7 @@
 ###   -before run the game you must install sdl 1.2 version(version is important)  library first with command : "apt-get install libsdl1.2-dev"
 ###   - you can start the game by execute the  compiled file main in "Sources" folder, just tap `./main`
    -when you get on menu press the "1" button on keybord and the game will start
+   
   ![video game demo](images/demo.gif)
 
 

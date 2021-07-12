@@ -10,4 +10,6 @@
 
 ###   - if you want to make some changes for compile just use the `make` command or  "gcc main.c game.c file.c custom.c  -o main -lSDL_image   `sdl-config --libs --cflags --static-libs  `"
 ## Window user
-as i write this line, the sdl version 1.2 is no longer supported by modern win system, you must download the 2 version and include the dll file in current directory
+- as i write this line, the sdl version 1.2 is no longer supported by modern win system, you must download the 2 version and include the dll file in current directory
+- if you find issues contact me on freddysoso4@gmail.com 
+

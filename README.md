@@ -5,6 +5,8 @@
    ![menu image](images/menu.jpg)
 
 -when you get on menu press the "1" button on keybord and the game will start
+
 ![video game demo](images/demo.gif)
+
 ###   - if you want to make some changes for compile just use the `make` command or  "gcc main.c game.c file.c custom.c  -o main -lSDL_image   `sdl-config --libs --cflags --static-libs  `"
 ## Window user
